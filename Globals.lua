@@ -22,7 +22,7 @@ function CreateLocalizationInfo()
 		"/pa hide - Blendet das Fenster aus.\n" ..
 		"/pa alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
 		"/pa toggle - Fenster anzeigen/ausblenden.\n" ..
-		"/pa default - F\195\188gt alle verf\195\188gbaren Standardverkn\195\188pfungen ein.\n" ..
+		"/pa default - F\195\188gt die vorhandenen Fertigkeiten automatisch ein.\n" ..
 		"/pa clear - L\195\182scht alle Verkn\195\188pfungen.\n\n" ..
 		"Du kannst deine Passage-Fertigkeiten per Drag & Drop auf die Pl\195\164tze ziehen und sie mit dem Mausrad l\195\182schen.";
 
