@@ -9,22 +9,22 @@ function CreateLocalizationInfo()
 
 	if Turbine.Engine.GetLanguage() == Turbine.Language.German then
 		Strings.PluginName = "Passage";
-		Strings.PluginText = "Passage Helper";
+		Strings.PluginText = "Passage Helfer";
 		Strings.PluginPassage1 = "Passage der Natur";
 		Strings.PluginPassage2 = "Passage der Feinde";
 		Strings.PluginPassage3 = "Passage des Schattens";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
-		Strings.PluginWindowShow = "Schaufenster.";
-		Strings.PluginWindowHide = "Verstecke das Fenster.";
+		Strings.PluginWindowShow = "Fenster wird angezeigt";
+		Strings.PluginWindowHide = "Fenster wird ausgeblendet";
 		Strings.PluginHelp = " *** Passage Hilfe ***\n\n" ..
-		"/Pa show zeigt Passage an\n" ..
-		"/Pa hide ausblenden Passage\n" ..
-		"/Pa alt - ALT-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
-		"/Pa toggle - Fenster ein-oder ausblenden\n" ..
-		"/Pa default - Definieren Sie die Standardsymbole\n" ..
-		"/Pa clear Alle Verkn\195\188pfungen l\195\182schen\n\n" ..
-		"Sie können Ihre Haustiere per Drag & Drop auf die Linien ziehen und sie mit dem Mausrad l\195\182schen";
+		"/pa show - Zeigt das Fenster an.\n" ..
+		"/pa hide - Blendet das Fenster aus.\n" ..
+		"/pa alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+		"/pa toggle - Fenster anzeigen/ausblenden.\n" ..
+		"/pa default - F\195\188gt die vorhandenen Fertigkeiten automatisch ein.\n" ..
+		"/pa clear - L\195\182scht alle Verkn\195\188pfungen.\n\n" ..
+		"Du kannst deine Passage-Fertigkeiten per Drag & Drop auf die Pl\195\164tze ziehen und sie mit dem Mausrad l\195\182schen.";
 
 elseif Turbine.Engine.GetLanguage() == Turbine.Language.French then
 		Strings.PluginName = "Passage";
